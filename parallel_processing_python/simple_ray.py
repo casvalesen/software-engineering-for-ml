@@ -9,7 +9,9 @@ ray.init()
 
 @ray.remote
 def f(x):
-    time.sleep(1)
+    print(f'Initiating process {x} at {time.strftime("%X")}')
+    time.sleep(10)
+    print(f'Ending process {x} at {time.strftime("%X")}')
     return x
 
 #Start 4 tasks in parallel 
