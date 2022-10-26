@@ -1,0 +1,16 @@
+name: se-for-ml-env
+channels: 
+  - default
+  - conda-forge 
+dependencies: 
+- python==3.9 
+- pyaml 
+- numpy 
+- scipy 
+- pandas 
+- fastapi 
+- uvicorn 
+- ipykernel
+- pip 
+- pip: 
+  - ray
