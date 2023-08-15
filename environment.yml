@@ -14,3 +14,5 @@ dependencies:
 - pip 
 - pip: 
   - ray
+  - apache-beam 
+  - pyspark
