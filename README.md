@@ -1,2 +1,2 @@
 # software-engineering-for-ml
-Useful software engineering tools and concepts for machine learning engineering
+Some useful software engineering tools and concepts for machine learning engineering
